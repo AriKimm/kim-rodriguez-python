@@ -19,9 +19,9 @@ print(f'Hi, {name}! You are {age} years old.')
 #Section 3
 dogs= input('How many dogs do you have? ')
 cats= input('How many cats do you have? ')
-total= float(dogs)+float(cats)
+total= float(dogs)*float(cats)
 
-print('You have: ' + str(total) + ' pets!')
+print(f'{dogs} x {cats} = {total}') 
 
 #Section 4
 item= ('Twin Bed')
@@ -34,10 +34,10 @@ print('===========================')
 print('          RECEIPT          ')
 print('===========================')
 print(f'Item:             {item}')
-print(f'Price:            {price}')
+print(f'Price:            {price:.2f}')
 print(f'Quantity:         {quantity}')
 print('---------------------------')
-print(f'Total:            {total}')
+print(f'Total:            {total:.2f}')
 print('===========================')
 
 #Section 5
